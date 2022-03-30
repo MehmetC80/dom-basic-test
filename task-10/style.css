@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 700px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.section {
+  background-color: rgb(59, 59, 59);
+  color: azure;
+  padding: 0 20px;
+}

@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#div {
+  align-self: flex-end;
+}
+
+#div2 {
+  margin-bottom: 20px;
+}
+button {
+  margin-bottom: 20px;
+}
+
+#carDropDown {
+  width: 100%;
+}

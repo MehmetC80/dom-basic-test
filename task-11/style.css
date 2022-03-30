@@ -1,0 +1,39 @@
+header h1 {
+  text-align: center;
+  margin: 20px 20px;
+  background-color: limegreen;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.questionBox {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  background-color: #eee;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+body > main > h2 {
+  cursor: pointer;
+  align-self: center;
+}
+
+#pQuestion > p:nth-child(1) {
+  border: 2px solid black;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+#pQuestion > p:nth-child(2) {
+  border: 2px solid black;
+  padding: 0 10px;
+  border-radius: 5px;
+}
